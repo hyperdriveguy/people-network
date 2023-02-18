@@ -1,0 +1,15 @@
+/home/carson/Documents/school/CSE310/people-network/obj/Debug/net7.0/people-network.csproj.AssemblyReference.cache
+/home/carson/Documents/school/CSE310/people-network/obj/Debug/net7.0/people-network.GeneratedMSBuildEditorConfig.editorconfig
+/home/carson/Documents/school/CSE310/people-network/obj/Debug/net7.0/people-network.AssemblyInfoInputs.cache
+/home/carson/Documents/school/CSE310/people-network/obj/Debug/net7.0/people-network.AssemblyInfo.cs
+/home/carson/Documents/school/CSE310/people-network/obj/Debug/net7.0/people-network.csproj.CoreCompileInputs.cache
+/home/carson/Documents/school/CSE310/people-network/bin/Debug/net7.0/people-network
+/home/carson/Documents/school/CSE310/people-network/bin/Debug/net7.0/people-network.deps.json
+/home/carson/Documents/school/CSE310/people-network/bin/Debug/net7.0/people-network.runtimeconfig.json
+/home/carson/Documents/school/CSE310/people-network/bin/Debug/net7.0/people-network.dll
+/home/carson/Documents/school/CSE310/people-network/bin/Debug/net7.0/people-network.pdb
+/home/carson/Documents/school/CSE310/people-network/obj/Debug/net7.0/people-network.dll
+/home/carson/Documents/school/CSE310/people-network/obj/Debug/net7.0/refint/people-network.dll
+/home/carson/Documents/school/CSE310/people-network/obj/Debug/net7.0/people-network.pdb
+/home/carson/Documents/school/CSE310/people-network/obj/Debug/net7.0/people-network.genruntimeconfig.cache
+/home/carson/Documents/school/CSE310/people-network/obj/Debug/net7.0/ref/people-network.dll
