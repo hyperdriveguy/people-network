@@ -18,7 +18,7 @@ I came up with the idea when I wanted to invite people to a party that were in a
 This program was developed using the Kate text editor on Linux.
 
 This was programmed in C#. I found out quickly I'm not a fan of C# and how it is too similar to Java.
-C# on Linux is possible, but don't expect to write any decent cross-platform graphical application.
+C# development on Linux is possible, but don't expect to write any decent cross-platform graphical application.
 
 Due to all this, this program is a console application that requires `dotnet` to run.
 
