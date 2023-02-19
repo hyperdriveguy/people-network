@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 
+// Class containing people and their attributes
+// This is just a data containing class for now
 public class PersonNode {
     public int id {get; set;}
     public PersonAttributes attributes {get; set;}
@@ -38,6 +40,7 @@ public class PersonNode {
 
 }
 
+// Manages people (nodes) and relationships between them
 public class RelationshipGraph {
     private Dictionary<int, PersonNode> node_map;
 
@@ -82,9 +85,14 @@ public class RelationshipGraph {
         }
     }
 
+    // Print a summary of every person contained in the graph
     public void PrintAllNodes() {
         foreach (PersonNode peop in this.node_map.Values) {
-            Console.WriteLine(peop.id);
+            Console.WriteLine($"Internal ID: {peop.id}");
+            Console.WriteLine($"Name: {peop.attributes.name}");
+            Console.WriteLine($"Age: {peop.attributes.age.GetAgeString()}");
+            Console.WriteLine($"Gender: {peop.attributes.gender}");
+            Console.WriteLine("\n");
         }
     }
 

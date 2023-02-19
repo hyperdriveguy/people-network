@@ -6,6 +6,8 @@ public enum Gender {
     Unknown
 }
 
+// Class for determining age of a person
+// This is used for increased precision in determining dates
 public class Age {
     public DateTime date_of_birth;
     public bool dob_approximated;
@@ -64,6 +66,7 @@ public class Age {
     }
 }
 
+// For lack of a better alternative, this structure is used
 public struct Location {
     public string country;
     public string stateProvince;
@@ -96,6 +99,7 @@ public struct Location {
     }
 }
 
+// Combine all of the attributes above into a single structure
 public struct PersonAttributes {
     public string name;
     public Age age;
@@ -111,6 +115,15 @@ public struct PersonAttributes {
         origin = new Location();
         residence = new Location();
         notes = "";
+    }
+
+    public PersonAttributes(string nam, int age_years, Gender gen, string more_info) {
+        name = nam;
+        age = new Age(age_years);
+        gender = gen;
+        origin = new Location();
+        residence = new Location();
+        notes = more_info;
     }
 
     public PersonAttributes(string nam, Age how_old, Gender sex, Location hailsFrom, Location locatedAt, string info) {
