@@ -2,14 +2,13 @@
     public PersonAttributes GetPersonAttributes() {
         Console.Write("The name of new person: ");
         string new_name = Console.ReadLine();
-        Console.Write("Enter the age of the new person: ");
-        int new_age = (int)Console.ReadLine();
-        int new_age;
-        string input = Console.ReadLine();
-        if(Int32.TryParse(input, out new_age))
-            Console.WriteLine("Correct number typed");
-        else
-            Console.WriteLine("The input is not a valid integer");
+
+        string new_age_string = "";
+        do {
+            Console.Write("Enter the age of the new person: ");
+            new_age_string = Console.ReadLine();
+        } while (!Int32.TryParse(new_age_string, out int new_age));
+
         string gender_string = "";
         do {
             Console.Write("Enter the gender of the new person: ");
